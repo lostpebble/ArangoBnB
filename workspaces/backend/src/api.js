@@ -1,4 +1,4 @@
-import KoaRouter from "koa-router";
+import KoaRouter from "@koa/router";
 
 function sendResponse(ctx, response, status = 200) {
   ctx.status = status;
